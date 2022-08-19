@@ -1,1 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
 
+*{
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+body{
+    font-family: lato,sans-serif;
+    font-weight: 400;
+    color:black;
+}
+
+nav {
+    width: 100%;
+    background-color:#280f91;
+    overflow: auto;
+}
+
+ul {
+    padding: 0;
+    margin-left: 500px;
+    list-style: none;
+}
+
+nav li {
+    float: left;
+}
+
+
+h1,h2 {
+    font-family:dynapuff,sans-serif;
+    letter-spacing: 3px;
+    color: #fff;
+}
+
+.logo-paw {
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 10px;
+    
+}
+
+.logo-paw a {
+    text-decoration: none;
+}
+
+nav a {
+    width: 100px;
+    display: block;
+    padding: 20px 15px;
+    color:white;
+    text-decoration: none;
+    font-size: 120%;
+    
+    
+}
+
+.header {
+    text-align: center;
+    line-height: 60px;
+    
+}
