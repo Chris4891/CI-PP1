@@ -76,30 +76,26 @@ nav a:hover{
     color: white;
 }
 
-.about{
-    width: 100%;
+#first{
     height: 600px;
     background-color: aqua;
 }
 
-#photo{
-    width: 33%;
-    height: 100%;
-    background-color: red;
-    float: left;
+
+#first-left{
+   width: 33%;
+   float: left;
+   padding-top: 30px;
+   height: 100%;
 }
 
-#konj{
-    width: 33%;
-    height: 100%;
-    background-color: rgb(0, 255, 64);
-margin: auto;    
-position:static;
-}
-
-#panj{
-    width: 33%;
-    height: 100%;
+.photo-left{
+    width: 60%;
+    height: auto;
     float: right;
-    background-color: yellow;
+    line-height: 20px;
+    margin-bottom: 50px;
+    background: url('../css/images/dalmatinac.jpg');
+    
 }
+
