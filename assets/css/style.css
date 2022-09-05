@@ -139,8 +139,8 @@ footer{
 
 .social-icons{
 	padding:20px;
-	background-color:#00506b;
-  text-align: center;
+	background-color:rgb(145, 77, 5);
+    text-align: center;
 }
 
 .social-icons a{
@@ -149,3 +149,8 @@ footer{
   font-size:30px;
   margin: 0 5px;
   text-decoration:none;
+}
+
+.social-icons p {
+    color: #fff;
+}
