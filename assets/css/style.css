@@ -137,22 +137,15 @@ footer{
     width: 100%;
 }
 
-.social-links{
-    text-align: center;
+.social-icons{
+	padding:20px;
+	background-color:#00506b;
+  text-align: center;
 }
 
-
-.social-links li{
-    display: inline;
-    width: 100%;
-}
-
-
-
-.social-links i{
-    font-size: 170%;
-    padding: 5%;
-    
-}
-
-
+.social-icons a{
+	color:#fff;
+  line-height:30px;
+  font-size:30px;
+  margin: 0 5px;
+  text-decoration:none;
