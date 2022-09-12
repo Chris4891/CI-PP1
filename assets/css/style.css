@@ -113,11 +113,23 @@ nav a:hover{
 
 .photo-left{
 
-    background-color:rgba(241, 109, 107, .7);
-    float: right;
-    width: 100px;
-    height: 300px;
+    background-color:transparent;
+    float:right;
+    margin-right: 5%;
    
+}
+
+.photo-left h2{
+    color: #fff;
+    font-size:medium
+}
+
+.photo-right h2{
+    color: #fff;
+    font-size:medium;
+    position: relative;
+    margin-top:71%;
+    margin-right:30%;
 }
 
 #first-right{
@@ -155,6 +167,10 @@ footer{
 }
 
 
+
+.social-icons a :hover {
     
+
+}
 
 
