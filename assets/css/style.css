@@ -94,7 +94,6 @@ nav a:hover{
 
 #s-third{
     width: 100%;
-    height: 300px;
     background-color:  rgb(236, 236, 242);}
 
 
@@ -109,6 +108,40 @@ nav a:hover{
     float: left;
 
 
+}
+
+.text-center{text-align: center;}
+
+.contact-boxes-container{
+
+    width: 66%;
+    margin: auto;
+}
+
+.contact-box-left{
+    float: left;
+    width: 250px;
+    margin-top: -20px;
+}
+
+.contact-box-right{
+    float: right;
+    width: 250px;
+    margin-top: -20px;
+    text-align: right;
+}
+
+.contact-box-center{
+    margin: auto 0;
+    text-align: center;
+}
+
+
+   
+
+
+div{
+    display: block;
 }
 
 .photo-left{
@@ -166,7 +199,12 @@ footer{
     color: #fff;
 }
 
+input[type=text], input[type=email] {
+    height: 30px;
+    border:solid 1px rgb(145, 77, 5);
 
+
+}
 
 .social-icons a :hover {
     
