@@ -8,7 +8,7 @@
 
 body{
     font-family: lato,sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     color:black;
 }
 
@@ -87,7 +87,7 @@ nav a:hover{
 #s-second{
     
     height: 300px;
-    background-color: rgb(236, 236, 242);
+    background-color:#fff;
     
     border: 3px solid rgb(145, 77, 5);
     padding: 20px;
@@ -95,7 +95,7 @@ nav a:hover{
 
 #s-third{
     
-    background-color:  rgb(236, 236, 242);
+    background-color:#fff;
     border:3px solid rgb(145, 77, 5);
     padding: 20px;
     margin-top: 1px;
@@ -222,4 +222,9 @@ input[type=text], input[type=email] {
 
 }
 
-
+.join-button{
+    border: 1px solid rgb(145, 77, 5);
+    padding: 7px;
+    background-color: rgb(145, 77, 5);
+    color: #fff;
+}
