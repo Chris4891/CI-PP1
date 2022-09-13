@@ -1,230 +1,185 @@
 @import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
-
+html {
+  width: 100%;
+  height: 100%;
+}
 *{
-    padding: 0;
-    margin: 0;
-    border: none;
+  padding: 0;
+  margin: 0;
+  border: none;
 }
-
 body{
-    font-family: lato,sans-serif;
-    font-weight: 500;
-    color:black;
+  font-family: lato,sans-serif;
+  font-weight: 500;
+  color:black;
 }
-
 nav {
-    width: 100%;
-    background-color:#fff;
-    overflow: auto;
+  width: 100%;
+  background-color:#fff;
+  overflow: auto;
 }
-
 ul {
-    padding: 0;
-    list-style: none;
-    float: right;
+  padding: 0;
+  list-style: none;
+  float: right;
 }
-
 nav li {
-    float: left;
+  float: left;
 }
-
-
 h1,h2 {
-    font-family:dynapuff,sans-serif;
-    letter-spacing: 3px;
-    color: rgb(145, 77, 5);
+  font-family:dynapuff,sans-serif;
+  letter-spacing: 3px;
+  color: rgb(145, 77, 5);
 }
-
 .logo-paw {
-    position: absolute;
-    margin-top: 15px;
-    margin-left: 30px;
-    font-size: 130%;
-    
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 30px;
+  font-size: 130%;
 }
-
 .logo-paw a {
-    text-decoration: none;
-    
+  text-decoration: none;
 }
-
 nav a {
-    width: 100px;
-    display: block;
-    padding: 20px 15px;
-    color:rgb(145, 77, 5);
-    text-decoration: none;
-    font-size: 120%;
-    
+  width: 100px;
+  display: block;
+  padding: 20px 15px;
+  color:rgb(145, 77, 5);
+  text-decoration: none;
+  font-size: 120%;
 }
-
 .header {
-    text-align: center;
-    line-height: 60px;
-    width: 100%;
-    
+  text-align: center;
+  line-height: 60px;
+  width: 100%;
 }
-
-
 nav a:hover{
-    text-decoration:underline;
-    color:rgb(145, 77, 5);
+  text-decoration:underline;
+  color:rgb(145, 77, 5);
 }
-
 .logo-paw a:hover{
-    text-decoration: underline;
-    color:rgb(145, 77, 5);
+  text-decoration: underline;
+  color:rgb(145, 77, 5);
 }
-
-
-
+@media screen and (min-width: 300px) and (max-width:1137px) {
+  #s-second {
+    line-height: 22px;
+    padding: 0px;
+    margin: 0px;
+  }
+}
+#section-two-left{
+  padding: 0;
+  margin: 0;
+}
+/*Main-text*/
 #s-first{
-   display: flex;
-    background-color: aquamarine;
+  display: flex;
+  background-color: aquamarine;
 }
-
-
 #s-second{
-    
-    height: 300px;
-    background-color:#fff;
-    
-    border: 3px solid rgb(145, 77, 5);
-    padding: 20px;
+  background-color:#fff;
+  border: 3px solid rgb(145, 77, 5);
+  padding: 20px;
 }
-
 #s-third{
-    
-    background-color:#fff;
-    border:3px solid rgb(145, 77, 5);
-    padding: 20px;
-    margin-top: 1px;
-    margin-bottom: 1px;
-
+  background-color:#fff;
+  border:3px solid rgb(145, 77, 5);
+  padding: 20px;
+  margin-top: 1px;
+  margin-bottom: 1px;
 }
-
-
-
 #section-one-left{
-    width: 50%;
-    background:url('../css/images/dalmatinac.jpg');
-    height: 600px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    float: left;
-
-
+  width: 50%;
+  background:url('../css/images/dalmatinac.jpg');
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  float: left;
 }
-
 .text-center{text-align: center;}
-
 .contact-boxes-container{
-
-    width: 66%;
-    margin: auto;
+  width: 66%;
+  margin: auto;
 }
-
 .contact-box-left{
-    float: left;
-    width: 250px;
-    margin-top: -20px;
+  float: left;
+  width: 250px;
+  margin-top: -20px;
 }
-
 .contact-box-right{
-    float: right;
-    width: 250px;
-    margin-top: -20px;
-    text-align: right;
+  float: right;
+  width: 250px;
+  margin-top: -20px;
+  text-align: right;
 }
-
 .contact-box-center{
-    margin: auto 0;
-    text-align: center;
+  margin: auto 0;
+  text-align: center;
 }
-
-
-   
-
-
 div{
-    display: block;
+  display: block;
 }
-
 .photo-left{
-
-    background-color:transparent;
-    float:right;
-    margin-right: 5%;
-   
+  background-color:transparent;
+  float:right;
+  margin-right: 5%;
 }
-
 .photo-left h2{
-    color: #fff;
-    font-size:medium
+  color: #fff;
+  font-size:medium
 }
-
 .photo-right h2{
-    color: #fff;
-    font-size:medium;
-    position: relative;
-    margin-top:71%;
-    margin-right:30%;
+  color: #fff;
+  font-size:medium;
+  position: relative;
+  margin-top:71%;
+  margin-right:30%;
 }
-
 #first-right{
-    float: right;
-    width: 50%;
-    height: 600px;
-    background-color: rgb(15, 172, 25);
-    background: url('../css/images/girl-dog.jpg');
-    background-size: cover;
-    background-position: center;
-    border-left: 2px solid white;
+  float: right;
+  width: 50%;
+  height: 600px;
+  background-color: rgb(15, 172, 25);
+  background: url('../css/images/girl-dog.jpg');
+  background-size: cover;
+  background-position: center;
+  border-left: 2px solid white;
 }
-
 footer{
-    height: 150px;
-    width: 100%;
+  height: 150px;
+  width: 100%;
 }
-
 .social-icons{
-	padding:20px;
-	background-color:rgb(145, 77, 5);
-    text-align: center;
+  padding:20px;
+  background-color:rgb(145, 77, 5);
+  text-align: center;
 }
-
 .social-icons a{
-	color:#fff;
-  line-height:30px;
-  font-size:30px;
-  margin: 0 5px;
-  text-decoration:none;
+  color:#fff;
+ line-height:30px;
+ font-size:30px;
+ margin: 0 5px;
+ text-decoration:none;
 }
-
 .social-icons p {
-    color: #fff;
+  color: #fff;
 }
-
 input[type=text], input[type=email] {
-    height: 30px;
-    border:solid 1px rgb(145, 77, 5);
+  height: 30px;
+  border:solid 1px rgb(145, 77, 5);
 }
-
 .signup-form{
-    padding: 20px;
-    height: 300px;
-    border: 3px solid rgb(145, 77, 5);
+  padding: 20px;
+  height: 300px;
+  border: 3px solid rgb(145, 77, 5);
 }
-
 .social-icons a :hover {
-    
-
 }
-
 .join-button{
-    border: 1px solid rgb(145, 77, 5);
-    padding: 7px;
-    background-color: rgb(145, 77, 5);
-    color: #fff;
+  border: 1px solid rgb(145, 77, 5);
+  padding: 7px;
+  background-color: rgb(145, 77, 5);
+  color: #fff;
 }
