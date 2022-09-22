@@ -1,22 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=DynaPuff&display=swap");
+
 html {
   width: 100%;
   height: 100%;
 }
-*{
+* {
   padding: 0;
   margin: 0;
   border: none;
+  box-sizing: border-box;
 }
-body{
-  font-family: lato,sans-serif;
+body {
+  font-family: lato, sans-serif;
   font-weight: 500;
-  color:black;
+  color: black;
+  text-align: center;
+  line-height: 60px;
 }
 nav {
   width: 100%;
-  background-color:#fff;
-  overflow: auto;
+  background-color: #fff;
+  overflow: hidden;
 }
 ul {
   padding: 0;
@@ -26,8 +30,9 @@ ul {
 nav li {
   float: left;
 }
-h1,h2 {
-  font-family:dynapuff,sans-serif;
+h1,
+h2 {
+  font-family: dynapuff, sans-serif;
   letter-spacing: 3px;
   color: rgb(145, 77, 5);
 }
@@ -37,14 +42,14 @@ h1,h2 {
   margin-left: 30px;
   font-size: 130%;
 }
+
 .logo-paw a {
   text-decoration: none;
 }
 nav a {
-  width: 100px;
   display: block;
-  padding: 20px 15px;
-  color:rgb(145, 77, 5);
+  padding: 20px;
+  color: rgb(145, 77, 5);
   text-decoration: none;
   font-size: 120%;
 }
@@ -53,133 +58,344 @@ nav a {
   line-height: 60px;
   width: 100%;
 }
-nav a:hover{
-  text-decoration:underline;
-  color:rgb(145, 77, 5);
-}
-.logo-paw a:hover{
+nav a:hover {
   text-decoration: underline;
-  color:rgb(145, 77, 5);
+  color: rgb(145, 77, 5);
 }
-@media screen and (min-width: 300px) and (max-width:1137px) {
+.logo-paw a:hover {
+  text-decoration: underline;
+  color: rgb(145, 77, 5);
+}
+@media screen and (min-width: 300px) and (max-width: 1137px) {
   #s-second {
     line-height: 22px;
     padding: 0px;
     margin: 0px;
   }
 }
-#section-two-left{
+#section-two-left {
   padding: 0;
   margin: 0;
 }
-/*Main-text*/
-#s-first{
+
+#s-first {
   display: flex;
   background-color: aquamarine;
 }
-#s-second{
-  background-color:#fff;
+#s-second {
+  background-color: #fff;
   border: 3px solid rgb(145, 77, 5);
-  padding: 20px;
+  padding: 40px 20px;
 }
-#s-third{
-  background-color:#fff;
-  border:3px solid rgb(145, 77, 5);
+#s-third {
+  background-color: #fff;
+  border: 3px solid rgb(145, 77, 5);
   padding: 20px;
   margin-top: 1px;
   margin-bottom: 1px;
 }
-#section-one-left{
+#section-one-left {
   width: 50%;
-  background:url('../css/images/dalmatinac.jpg');
+  background: url("../css/images/dalmatinac.jpg");
   height: 600px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   float: left;
 }
-.text-center{text-align: center;}
-.contact-boxes-container{
-  width: 66%;
+.text-center {
+  text-align: center;
+}
+.contact-boxes-container {
+  max-width: 1400px;
   margin: auto;
 }
-.contact-box-left{
+.contact-box-left {
   float: left;
   width: 250px;
   margin-top: -20px;
 }
-.contact-box-right{
+.contact-box-right {
   float: right;
   width: 250px;
   margin-top: -20px;
   text-align: right;
 }
-.contact-box-center{
+.contact-box-center {
   margin: auto 0;
   text-align: center;
 }
-div{
+div {
   display: block;
 }
-.photo-left{
-  background-color:transparent;
-  float:right;
+.photo-left {
+  background-color: transparent;
+  float: right;
   margin-right: 5%;
 }
-.photo-left h2{
+.photo-left h2 {
   color: #fff;
-  font-size:medium
+  font-size: medium;
 }
-.photo-right h2{
+.photo-right h2 {
   color: #fff;
-  font-size:medium;
+  font-size: medium;
   position: relative;
-  margin-top:71%;
-  margin-right:30%;
+  margin-top: 71%;
+  margin-right: 30%;
 }
-#first-right{
+#first-right {
   float: right;
   width: 50%;
   height: 600px;
   background-color: rgb(15, 172, 25);
-  background: url('../css/images/girl-dog.jpg');
+  background: url("../css/images/girl-dog.jpg");
   background-size: cover;
   background-position: center;
   border-left: 2px solid white;
 }
-footer{
-  height: 150px;
+footer {
   width: 100%;
 }
-.social-icons{
-  padding:20px;
-  background-color:rgb(145, 77, 5);
+.social-icons {
+  padding: 20px;
+  background-color: rgb(145, 77, 5);
   text-align: center;
 }
-.social-icons a{
-  color:#fff;
- line-height:30px;
- font-size:30px;
- margin: 0 5px;
- text-decoration:none;
+.social-icons a {
+  color: #fff;
+  line-height: 30px;
+  font-size: 30px;
+  margin: 0 5px;
+  text-decoration: none;
+}
+.social-icons a:hover{
+  opacity: .7;
 }
 .social-icons p {
   color: #fff;
 }
-input[type=text], input[type=email] {
+input[type="text"],
+input[type="email"] {
   height: 30px;
-  border:solid 1px rgb(145, 77, 5);
+  border: solid 1px rgb(145, 77, 5);
 }
-.signup-form{
+.signup-form {
   padding: 20px;
   height: 300px;
   border: 3px solid rgb(145, 77, 5);
 }
-.social-icons a :hover {
-}
-.join-button{
+
+.join-button {
   border: 1px solid rgb(145, 77, 5);
   padding: 7px;
   background-color: rgb(145, 77, 5);
   color: #fff;
+}
+
+@media (max-width: 767.98px) {
+  body {
+    line-height: 1.5;
+  }
+  .header {
+    padding-top: 60px;
+  }
+  #menuToggle {
+    display: block;
+    position: absolute;
+    top: 19px;
+    left: 25px;
+
+    z-index: 1;
+
+    -webkit-user-select: none;
+    user-select: none;
+  }
+
+  #menuToggle a {
+    text-decoration: none;
+    color: #232323;
+    width: auto;
+    padding: 10px;
+    transition: color 0.3s ease;
+  }
+
+  #menuToggle a:hover {
+    color: rgb(145, 77, 5);
+  }
+
+  #menuToggle input {
+    display: block;
+    width: 40px;
+    height: 32px;
+    position: absolute;
+    top: -7px;
+    left: -5px;
+
+    cursor: pointer;
+
+    opacity: 0; 
+    z-index: 2; 
+
+    -webkit-touch-callout: none;
+  }
+
+  #menuToggle span {
+    display: block;
+    width: 33px;
+    height: 4px;
+    margin-bottom: 5px;
+    position: relative;
+
+    background: #232323;
+    border-radius: 3px;
+
+    z-index: 1;
+
+    transform-origin: 4px 0px;
+
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1),
+      background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
+  }
+
+  #menuToggle span:first-child {
+    transform-origin: 0% 0%;
+  }
+
+  #menuToggle span:nth-last-child(2) {
+    transform-origin: 0% 100%;
+  }
+
+  #menuToggle input:checked ~ span {
+    opacity: 1;
+    transform: rotate(45deg) translate(-2px, -1px);
+    background: #232323;
+  }
+
+  #menuToggle input:checked ~ span:nth-last-child(3) {
+    opacity: 0;
+    transform: rotate(0deg) scale(0.2, 0.2);
+  }
+
+  #menuToggle input:checked ~ span:nth-last-child(2) {
+    transform: rotate(-45deg) translate(0, -1px);
+  }
+
+  #menu {
+    position: absolute;
+    width: 300px;
+    margin: -100px 0 0 -50px;
+    padding: 50px;
+    padding-top: 125px;
+
+    background: #ededed;
+    list-style-type: none;
+    -webkit-font-smoothing: antialiased;
+
+    transform-origin: 0% 0%;
+    transform: translate(-100%, 0);
+
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+  }
+
+  #menu li {
+    padding: 10px 0;
+    font-size: 22px;
+    float: none;
+  }
+
+  #menuToggle input:checked ~ ul {
+    transform: none;
+  }
+  .logo-paw {
+    position: absolute;
+    margin-top: 0;
+    top: 0;
+    font-size: 100%;
+    right: 15px;
+  }
+
+  #s-first {
+    flex-direction: column;
+  }
+  #section-one-left,
+  #first-right {
+    width: auto;
+    height: 270px;
+    float: none;
+  }
+  .photo-left,
+  .photo-right {
+    float: none;
+    margin-right: 0;
+    padding: 20px;
+  }
+  #first-right {
+    border-left: 0;
+  }
+  .photo-right h2 {
+    margin-top: 0;
+    margin-right: 0;
+  }
+
+  .about-us-center {
+    margin-bottom: 15px;
+  }
+
+  #s-third h2 {
+    margin-bottom: 20px;
+  }
+  .contact-boxes-container {
+    width: 100%;
+  }
+  .contact-boxes-container > div:not(:last-child) {
+    margin-bottom: 35px;
+  }
+  .contact-box-left {
+    float: none;
+
+    margin-top: 0;
+    margin-inline: auto;
+  }
+
+  .contact-box-right {
+    float: none;
+
+    margin-top: 0;
+    text-align: center;
+    margin-inline: auto;
+  }
+
+  .signup-form {
+    height: auto;
+  }
+  .signup-form label {
+    display: table;
+  }
+  .signup-form input {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    padding: 15px;
+  }
+}
+
+@media (min-width: 768px) {
+  #menuToggle input {
+    display: none;
+  }
+  .photo-right {
+    display: flex;
+    height: 100%;
+  }
+  .photo-right h2 {
+    margin-top: auto;
+    margin-left: 5%;
+  }
+}
+
+@media (min-width: 1200px) {
+  nav a {
+    padding-inline: 40px;
+  }
 }
