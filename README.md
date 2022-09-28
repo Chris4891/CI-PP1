@@ -18,6 +18,13 @@ We are a small family company that has been breeding different types of dogs for
 
 <br/>
 
+## UX 
+To make the options available on the website as obvious to the user as possible. Be straightforward in design, with a focus on the company's offerings and products. to create trust in a potential B2B customer seeking for the items they require
+
+<img width='200px' src ='https://user-images.githubusercontent.com/109537705/192740366-e4afc63e-e6f4-46ef-8da2-36589bd8252b.png'>
+
+<br/>
+
 ## Gallery
 ![Gallary Collection-min](https://user-images.githubusercontent.com/49618856/192642651-5483db15-dc92-449a-870b-6a4faa647ff0.png)
 
