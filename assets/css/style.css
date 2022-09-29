@@ -62,10 +62,7 @@ nav a:hover {
   text-decoration: underline;
   color: rgb(145, 77, 5);
 }
-.logo-paw a:hover {
-  text-decoration: underline;
-  color: rgb(145, 77, 5);
-}
+
 @media screen and (min-width: 300px) and (max-width: 1137px) {
   #s-second {
     line-height: 22px;
@@ -191,6 +188,14 @@ input[type="email"] {
   padding: 7px;
   background-color: rgb(145, 77, 5);
   color: #fff;
+}
+
+.join-button {
+  transition-duration: 0.4s;
+}
+
+.join-button:hover{
+  background-color:rgb(91, 51, 8) ;
 }
 
 @media (max-width: 767.98px) {
