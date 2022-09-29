@@ -167,8 +167,8 @@ footer {
   text-decoration: none;
 }
 .social-icons a:hover{
-  opacity: .7;
-}
+color: rgb(91, 51, 8) ;}
+
 .social-icons p {
   color: #fff;
 }
